@@ -20,7 +20,7 @@ def find_heaviest_container(container_data):
 
 
 def main():
-    with open("container2.txt") as file:
+    with open("../Junior2/container2.txt") as file:
         data = file.readlines()
 
     heaviest_container = find_heaviest_container(data)
